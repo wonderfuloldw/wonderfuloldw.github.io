@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="安利集中," />
 
 
 
@@ -80,13 +80,14 @@
 
 
 <meta name="description" content="上一篇有很多同好在评论里安利，感觉可能有点没说清楚所以开了这贴。如果是安利向的评论，请在这一篇下面评论。为了方便检索（考虑到评论聊天把安利刷掉的情况），主页君也会把重点更新到这篇下面的正文里。感觉短评不足以表达自己的想法的话，欢迎点击主页上方的【投稿】键写一篇图文并茂的安利文~如果对规则、作品是否符合本主页标准或其他方面有疑问，请到上一篇评论或者私信XD&amp;nbsp;以下为上一篇评论安利整理：&amp;nb">
+<meta name="keywords" content="安利集中">
 <meta property="og:type" content="article">
 <meta property="og:title" content="安利集中贴">
 <meta property="og:url" content="http://iloveoldworks.lofter.com/2015/03/10/安利集中贴/index.html">
 <meta property="og:site_name" content="怀古作品主页">
 <meta property="og:description" content="上一篇有很多同好在评论里安利，感觉可能有点没说清楚所以开了这贴。如果是安利向的评论，请在这一篇下面评论。为了方便检索（考虑到评论聊天把安利刷掉的情况），主页君也会把重点更新到这篇下面的正文里。感觉短评不足以表达自己的想法的话，欢迎点击主页上方的【投稿】键写一篇图文并茂的安利文~如果对规则、作品是否符合本主页标准或其他方面有疑问，请到上一篇评论或者私信XD&amp;nbsp;以下为上一篇评论安利整理：&amp;nb">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-09-24T05:55:04.912Z">
+<meta property="og:updated_time" content="2018-09-24T11:20:52.983Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="安利集中贴">
 <meta name="twitter:description" content="上一篇有很多同好在评论里安利，感觉可能有点没说清楚所以开了这贴。如果是安利向的评论，请在这一篇下面评论。为了方便检索（考虑到评论聊天把安利刷掉的情况），主页君也会把重点更新到这篇下面的正文里。感觉短评不足以表达自己的想法的话，欢迎点击主页上方的【投稿】键写一篇图文并茂的安利文~如果对规则、作品是否符合本主页标准或其他方面有疑问，请到上一篇评论或者私信XD&amp;nbsp;以下为上一篇评论安利整理：&amp;nb">
@@ -295,6 +296,16 @@
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2015/03/10/安利集中贴/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2015/03/10/安利集中贴/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -336,6 +347,12 @@
     
 
     <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/安利集中/" rel="tag"># 安利集中</a>
+          
+        </div>
       
 
       
@@ -384,6 +401,9 @@
           
 
   
+    <div class="comments" id="comments">
+    </div>
+  
 
 
 
@@ -422,7 +442,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">28</span>
+                  <span class="site-state-item-count">29</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -430,6 +450,15 @@
 
             
 
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">33</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
             
 
           </nav>
@@ -631,6 +660,28 @@
 
 
 
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'q4yqyOIW55bJMChHqii4qVzM-gzGzoHsz',
+        appKey: '9LnUNBjNnPHAJSmHbUb6ACi1',
+        placeholder: 'Just go go',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 
